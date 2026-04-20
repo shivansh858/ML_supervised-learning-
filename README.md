@@ -1,2 +1,21 @@
 # ML_supervised-learning-
-🤖 Machine Learning ModelsThe notebook evaluates several popular Scikit-Learn models to determine which performs best on the survival task:ModelKey Performance (Accuracy)ObservationsLogistic Regression80%Solid baseline performance with balanced precision and recall.K-Neighbors (KNN)81%Improved accuracy after feature scaling ($k=5$).Support Vector Machine82%The top performer in this notebook, particularly strong at identifying non-survivors (recall of 0.93).Naive Bayes78-79%Tested on both raw and scaled data; showed slight sensitivity to scaling.Decision Tree75%Lower accuracy here, likely due to overfitting on the training data.📊 Evaluation MetricsFor every model, the notebook provides a detailed breakdown of its effectiveness using:Confusion Matrices: To visualize True Positives vs. False Positives.Classification Reports: Providing Precision, Recall, and F1-Scores.R² Score: Interestingly, a LinearRegression model was also attempted (scoring 0.44), though the notebook correctly pivots to classification models which are better suited for this binary outcome.
+🤖 Machine Learning ModelsThe notebook evaluates several popular Scikit-Learn models to determine which performs best on the survival task:
+ModelKey Performance   (Accuracy)
+
+Logistic Regression	    80%
+K-Neighbors (KNN)	      81%
+Support Vector Machine	82%
+Naive Bayes	            78-79%
+Decision Tree	          75%
+
+📊 Evaluation Metrics
+For every model, the notebook provides a detailed breakdown of its effectiveness using:
+
+Confusion Matrices: To visualize True Positives vs. False Positives.
+
+Classification Reports: Providing Precision, Recall, and F1-Scores.
+
+R² Score: Interestingly, a LinearRegression model was also attempted (scoring 0.44), though the notebook correctly pivots to classification models which are better suited for this binary outcome.
+
+
+
