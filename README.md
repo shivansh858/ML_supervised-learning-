@@ -15,7 +15,7 @@ Confusion Matrices: To visualize True Positives vs. False Positives.
 
 Classification Reports: Providing Precision, Recall, and F1-Scores.
 
-R² Score: Interestingly, a LinearRegression model was also attempted (scoring 0.44), though the notebook correctly pivots to classification models which are better suited for this binary outcome.
+
 
 
 
